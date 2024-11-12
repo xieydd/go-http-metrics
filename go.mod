@@ -1,6 +1,8 @@
 module github.com/slok/go-http-metrics
 
-go 1.23
+go 1.22.1
+
+toolchain go1.22.9
 
 require (
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
